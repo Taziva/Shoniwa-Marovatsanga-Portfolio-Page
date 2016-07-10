@@ -1,0 +1,551 @@
+.navbar {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  border: none;
+  box-shadow: 2px 3px 3px #222;
+}
+
+hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#occupations {
+  margin: 20px
+}
+
+#navbar ul li a {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+#navbar ul li a:hover {
+  color: #A8BECE;
+}
+
+.open .dropdown-toggle,
+#navbar ul > li.dropdown.open {
+  background-color: #A8BECE !important;
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+#navbar ul .active > a {
+  background-color: #A8BECE;
+  color: #000;
+}
+
+.nav-brand {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+.nav-brand:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-nav {
+  font-size: 1.25em;
+}
+
+.top-menu {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+.navbar a {}
+
+.navbar ul {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+.social {
+  color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#about-me {
+  magin: 0 auto;
+  margin-top: 50px;
+}
+
+.content {
+  background-color: #fff;
+  color: black
+}
+
+.heading {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+.figure {
+  padding: 10px;
+  background-color: white;
+  border: 5px solid lightblue;
+}
+
+.heading > h1 {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.heading > h2 {
+  font-size: 0.75em;
+}
+
+#firstcaption {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bigimage {
+  margin: 10px auto;
+}
+
+#social-fb:hover {
+  color: #3B5998;
+}
+
+#social-tw:hover {
+  color: #4099FF;
+}
+
+#social-in:hover {
+  color: #d34836;
+}
+
+#social-wp:hover {
+  color: #0087BE;
+}
+
+.timeline {
+  float: none;
+  margin-top: 2em;
+}
+
+.timeline > h3 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.navbar-nav {
+  font-family: 'Oswald', sans-serif;
+}
+
+.shopicture {
+  border-radius: 100%;
+  margin-left: 6em;
+}
+
+#occupations li {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 2em;
+  font-family: 'Indie Flower', cursive;
+}
+
+#about-me {
+  background-color: #A8BECE;
+}
+
+#portfolio {}
+
+#aboutme-title {
+  font-size: 4em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  color: black;
+  margin-left: 1em;
+}
+
+#portfolio-title {
+  font-size: 4em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  float: right;
+  color: black;
+}
+
+#contact-title {
+  font-size: 4em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  float: left;
+  color: black;
+}
+
+.portfolio-pictures {
+  margin-bottom: 2em;
+}
+
+#aboutme-content {
+  margin-left: 3em;
+  text-align: center;
+}
+
+#contact-form {
+  float: right;
+}
+
+#contact-form input,
+#contact-form textarea {
+  border: none;
+  border-bottom: 2px solid #999999;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  color: #999999;
+}
+
+#contactform-submit {
+  border: 4px solid black !important;
+  background-color: white;
+  color: black !important;
+  float: right;
+}
+
+#contact-message {
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  color: #999999;
+}
+.form-label{ font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  color: #999999;
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus {
+  outline: 0px !important;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 2em;
+  position: absolute;
+  width: 100%;
+  float: left;
+}
+
+#copyright {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+
+/*Portfolio Apps*/
+
+
+/*Local Weather*/
+
+#weatherAndTime {
+  background-color: #b499cb !important;
+}
+
+#icon {
+  height: 5em;
+  margin: 0 auto;
+}
+
+#weatherApp-title {
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 4em;
+  color: white;
+}
+
+#clock {
+  font-family: 'Indie Flower';
+  text-align: center;
+  font-size: 4em;
+  color: white;
+}
+
+#currentCity {
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2em;
+  color: white;
+}
+
+#weatherReadings {
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.2em;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  color: white;
+}
+
+#temp {
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.2em;
+  font-size: 2em;
+  color: white;
+  display: inline-block;
+}
+
+#unit {
+  font-family: 'Indie Flower';
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  display: inline-block;
+}
+
+#tempUnitChange:hover {
+  text-decoration: none;
+}
+
+#changeWeather {
+  font-family: 'Indie Flower';
+  background-color: #ad8699 !important;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 0.2em;
+}
+
+#changeWeather:focus {
+  outline: 0;
+}
+
+#icon {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 0.2em;
+}
+
+
+/*Local Weather End*/
+
+
+/*Random Quote Generator*/
+
+#randomQuoteGenerator {
+  background-color: #CB99C9 !important;
+}
+#randomQuoteGenerator-title {
+  font-size: 3em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  color: white;
+  margin-top: 0.75em;
+  text-align: center
+}
+#quoteBox {
+  background-color: white;
+  text-align: center;
+  margin-top: 2em;
+  float: left;
+  border-radius: 5px;
+  color: #CB99C9;
+  box-shadow: 6px 6px 5px #986696;
+}
+
+blockquote {
+  border-left: none !important;
+}
+
+#quoteArea {
+  display: inline;
+}
+
+#qouteAuthor {}
+
+#rqgButtons {
+  margin-bottom: 1.75em;
+}
+
+#rqgTwitterIcon {
+  float: left;
+  margin-left: 0.75em;
+  color: #CB99C9 !important;
+}
+
+#anotherOne {
+  color: white;
+  background-color: #CB99C9;
+  border: 0x solid black !important;
+  border-radius: 4px;
+  float: right;
+  margin-right: 2em;
+}
+
+#anotherOne:active {
+  border: none !important;
+}
+
+#creatorTag {
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+/*Random Quote Generator End*/
+
+/*Wikipedia Search*/
+
+#wikipediaSearch {
+  background-color: #cb99b0;
+}
+
+#wikipediaSearch-title {
+  font-family: 'Indie Flower';
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 4em;
+  color: white;
+}
+
+#wikiSearchBar {
+  position: relative;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding: 0.2em;
+  margin-left: 0px;
+  border: 3px solid white;
+  background-color: #cb99b0;
+  text-align: center;
+  margin-top: 2em;
+  color: white !important;
+  font-weight: bolder;
+  float: left;
+  border-right: none;
+  left: 4em;
+}
+
+#wikiSearchBar:focus {
+  outline: 0px;
+}
+
+#wikiSearchButton {
+  position: relative;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 3px solid white;
+  color: #cb99b0;
+  background-color: white;
+  padding: 0.2em;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 0;
+  float: left;
+  font-weight: bolder;
+  padding-left: 1em;
+  padding-right: 1em;
+  left: 4em;
+}
+
+#wikiSearchButton:before {
+  /* left arrow */
+  content: '';
+  position: absolute;
+  border-width: 15px 15px;
+  border-style: solid solid solid none;
+  border-color: transparent white transparent;
+  margin: 0;
+  top: -2px;
+  left: -16px;
+}
+
+#wikiSearchButton:focus {
+  outline: 0px;
+}
+
+#wikiSearchBar::-webkit-input-placeholder {
+  color: white !important;
+}
+
+#randomWiki {
+  position: relative;
+  left: -39px;
+  border-radius: 12px;
+  border: 3px solid white;
+  color: #cb99b0;
+  background-color: white;
+  margin-top: 1em;
+  width: 254px;
+  text-align: center;
+  float: left;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  left: 2.65em;
+}
+
+#randomWiki:focus {
+  outline: 0px;
+}
+
+#searchResult-title{
+  margin-left:1em;
+}
+
+/*Wikipedia Search End*/
+
+
+@media (min-width: 992px) {
+  .nav-brand {
+    margin: 0em 2em 0em 0em;
+  }
+  .social-medialinks {
+    text-align: center;
+    border-top: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  #portfolio-title {
+    float:none;
+    text-align:center;
+  }
+  #contact-title {
+    float:none;
+    text-align:center;
+  }
+  #occupations {
+    text-align: center;
+  }
+  .shopicture {
+    margin: 1.5em auto;
+  }
+  #aboutme-content {
+  margin: 0 auto;
+  text-align: center;
+}
+  #contact-form {
+    float:none;
+  margin: 0 auto;
+  text-align: center;
+}
+  #contactform-submit {
+    float:none;
+  margin: 0 auto;
+  text-align: center;
+}
+}
